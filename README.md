@@ -8,12 +8,12 @@ Proyecto universitario para el microcontrolador MSP430FR6989. Un juego de reacci
 <img width="640" height="360" alt="msp-exp430fr6989-angled" src="https://github.com/user-attachments/assets/a3ba7ae2-eb67-4de2-bbe0-5067d27f06b8" />
 </p>
 
-### 📝 Descripción del Proyecto
+### 📝 Descripción del proyecto
 
 La aplicación consiste en un juego de dos fases:
 
-1.  **Fase de Generación:** Al pulsar el botón SW1, se genera un número pseudoaleatorio entre 10 y 99. Este número, el "objetivo", se muestra en el display LCD.
-2.  **Fase de Medición:** El usuario debe mantener pulsado el botón SW2 durante un tiempo que intente igualar el número "objetivo" en segundos. Al soltar el botón, el LCD muestra:
+1.  **Fase de generación:** Al pulsar el botón SW1, se genera un número pseudoaleatorio entre 10 y 99. Este número, el "objetivo", se muestra en el display LCD.
+2.  **Fase de medición:** El usuario debe mantener pulsado el botón SW2 durante un tiempo que intente igualar el número "objetivo" en segundos. Al soltar el botón, el LCD muestra:
     *   El tiempo que el botón estuvo pulsado.
     *   La diferencia (con signo) entre el tiempo medido y el objetivo.
 
@@ -21,7 +21,7 @@ El proyecto pone en práctica la gestión de periféricos, interrupciones, modos
 
 ---
 
-### 🛠️ Stack Tecnológico
+### 🛠️ Stack tecnológico
 
 *   **Lenguajes:** C y Ensamblador (Assembly)
 *   **Hardware:** Microcontrolador Texas Instruments MSP430FR6989
@@ -29,7 +29,7 @@ El proyecto pone en práctica la gestión de periféricos, interrupciones, modos
     *   Display LCD (on-board)
     *   Pulsadores (SW1, SW2) para entrada de usuario
     *   Timer_A para temporización precisa y gestión de interrupciones.
-*   **Conceptos Clave:**
+*   **Conceptos clave:**
     *   Manejo de interrupciones de periféricos (GPIO y Timers).
     *   Modos de bajo consumo (LPM3) para eficiencia energética.
     *   Arquitectura de software basada en un bucle principal (super-loop) y rutinas de servicio de interrupción (ISR).
@@ -37,7 +37,7 @@ El proyecto pone en práctica la gestión de periféricos, interrupciones, modos
 
 ---
 
-### 📂 Estructura del Código
+### 📂 Estructura del código
 
 *   `main.c`: Contiene la lógica principal del juego, la inicialización del sistema y el bucle principal.
 *   `syst.asm`: Módulo en ensamblador que gestiona el `system timer`, proporcionando una base de tiempo precisa para todo el sistema.
@@ -46,6 +46,6 @@ El proyecto pone en práctica la gestión de periféricos, interrupciones, modos
 
 ---
 
-### 🚀 Cómo Probarlo
+### 🚀 Cómo probarlo
 
 Este proyecto está diseñado para ser compilado y cargado en una placa de desarrollo **MSP-EXP430FR6989 LaunchPad** utilizando un entorno como **Code Composer Studio** de Texas Instruments.
