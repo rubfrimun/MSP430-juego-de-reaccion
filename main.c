@@ -3,8 +3,7 @@
 #include <lcd.h>
 #include <syst.h>
 //;------------------------------------------------
-//; Frias Muñoz, Ruben
-//; Grupo: L3
+//; Frias MuÃ±oz, Ruben
 //;--------------------------------------------------
 char mensaje[] = " Realizado por: Ruben Frias Munoz ";
 void pausa_debounce(void)
@@ -148,3 +147,4 @@ int main(void)
     }
     return 0;
 }
+
