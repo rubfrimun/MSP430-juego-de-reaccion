@@ -4,7 +4,7 @@ Proyecto universitario para el microcontrolador MSP430FR6989. Un juego de reacci
 
 > Proyecto final para la asignatura "Sistemas Basados en Microprocesador" de la Universidad de Sevilla. El objetivo es desarrollar un juego de precisión temporal utilizando programación mixta en C y Ensamblador para la placa de desarrollo MSP-EXP430FR6989.
 
-![Foto del Launchpad](ruta/a/tu/foto.jpg)  <!-- Sube una foto o un GIF del proyecto funcionando. ¡Esto es muy efectivo! -->
+![Foto del Launchpad]("C:\Users\ruben\Downloads\msp-exp430fr6989-angled.png")  <!-- Sube una foto o un GIF del proyecto funcionando. ¡Esto es muy efectivo! -->
 
 ---
 
